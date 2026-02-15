@@ -1,0 +1,2 @@
+export * from '../../../extensions/CommentExtension';
+

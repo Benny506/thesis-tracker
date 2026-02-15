@@ -1,0 +1,22 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tt-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <!-- Bootstrap primary and a slightly darker shade -->
+      <stop offset="0%" stop-color="#0d6efd"/>
+      <stop offset="100%" stop-color="#0b5ed7"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#tt-gradient)"/>
+  <text
+    x="50%"
+    y="52%"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    font-size="24"
+    font-weight="700"
+    fill="#ffffff"
+  >
+    TT
+  </text>
+</svg>

@@ -1,0 +1,53 @@
+.editor-toolbar {
+  z-index: 5;
+}
+.rte-content img {
+  max-width: 100%;
+  height: auto;
+}
+.rich-text-editor {
+  backdrop-filter: saturate(1);
+}
+
+.rte-content{
+  height: 100%;
+  cursor: text;
+}
+.rte-content .ProseMirror{
+  min-height: 100%;
+  outline: none;
+  caret-color: black;
+  /* extra space at bottom so caret isn't hidden by toolbars */
+  padding-bottom: 2rem;
+}
+.rte-content .ProseMirror *{
+  caret-color: inherit;
+}
+
+.rte-image-wrap.is-selected{
+  outline: 2px solid rgba(13,110,253,.35);
+  outline-offset: 2px;
+}
+.rte-image-wrap .rte-resize-handle{
+  position: absolute;
+  right: -6px;
+  bottom: -6px;
+  width: 12px;
+  height: 12px;
+  background: #0d6efd;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  cursor: nwse-resize;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+}
+
+.rte-comment-highlight {
+  background: rgba(255, 193, 7, 0.35);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.rte-comment-highlight-active {
+  background: #fff3cd;
+  border-radius: 4px;
+}
