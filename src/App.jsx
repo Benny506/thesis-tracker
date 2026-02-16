@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import { ChatProvider } from './context/ChatContext';
 import AppRoutes from './routes/AppRoutes';
@@ -7,7 +7,7 @@ import Toast from './components/ui/Toast';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <GlobalLoader />
       <Toast />
       <AuthProvider>
@@ -15,7 +15,7 @@ function App() {
           <AppRoutes />
         </ChatProvider>
       </AuthProvider>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
